@@ -1,0 +1,19 @@
+// write your answer here 
+
+import java.util.Scanner;
+
+class FixingNullPointerException {
+
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    String string = scanner.nextLine();
+    string = "null".equals(string) ? null : string;
+    /* Do not change code above */
+
+    if (string == null) {
+      System.out.println("NPE!");
+    } else {
+      System.out.println(string.toLowerCase());
+    }
+  }
+}
