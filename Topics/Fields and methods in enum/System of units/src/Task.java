@@ -1,7 +1,17 @@
-// write your answer here 
 
-public class Task {
-  public static void main(String[] args) {
-    // put your code here
+enum SI {
+
+  M("length"),
+  KG("mass"),
+  S("time");
+
+  public final String quantityName;
+
+  SI(String quantityName) {
+    this.quantityName = quantityName;
+  }
+
+  String getQuantityName() {
+    return quantityName;
   }
 }
