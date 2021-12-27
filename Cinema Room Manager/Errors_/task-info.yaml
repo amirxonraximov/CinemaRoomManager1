@@ -699,10 +699,10 @@ files:
 - name: src/cinema/CinemaRoom.java
   visible: true
   learner_created: true
-feedback_link: https://hyperskill.org/projects/133/stages/713/implement#comment
+feedback_link: https://hyperskill.org/learn/step/11109#comment
 status: Solved
 feedback:
   message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">JetBrains
     Academy</a> to continue learning.
-  time: Sun, 26 Dec 2021 19:01:03 UTC
+  time: Mon, 27 Dec 2021 11:30:46 UTC
 record: -1

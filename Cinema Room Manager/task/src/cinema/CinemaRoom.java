@@ -96,14 +96,10 @@ public class CinemaRoom {
                 ? allSeats * 10
                 : (row / 2) * column * 10 +
                 (allSeats - (row / 2) * column) * 8;
-        System.out.printf("Number of purchased tickets: %d", purchasedTickets);
-        System.out.println();
-        System.out.printf("Percentage: %s", getPercentage());
-        System.out.println();
-        System.out.printf("Current income: $%d", currentIncome);
-        System.out.println();
-        System.out.printf("Total income: $%d", totalIncome);
-        System.out.println();
+        System.out.printf("Number of purchased tickets: %d\n", purchasedTickets);
+        System.out.printf("Percentage: %s\n", getPercentage());
+        System.out.printf("Current income: $%d\n", currentIncome);
+        System.out.printf("Total income: $%d\n", totalIncome);
     }
 
     private void markSeat(int row, int column) {
